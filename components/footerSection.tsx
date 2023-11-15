@@ -52,6 +52,43 @@ const FooterSection = () => {
               <li>ElResto</li>
             </ul>
           </div>
+          <div>
+            <h1 className="text-{22px] font-bold">Product</h1>
+            <ul className="flex gap-4 mt-5">
+              <li>
+                <Image
+                  width={24}
+                  height={24}
+                  src="/images/linkedin.svg"
+                  alt="icon"
+                />
+              </li>
+              <li>
+                <Image
+                  width={24}
+                  height={24}
+                  src="/images/instagram.svg"
+                  alt="icon"
+                />
+              </li>
+              <li>
+                <Image
+                  width={24}
+                  height={24}
+                  src="/images/facebook.svg"
+                  alt="icon"
+                />
+              </li>
+              <li>
+                <Image
+                  width={24}
+                  height={24}
+                  src="/images/youtube.svg"
+                  alt="icon"
+                />
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
