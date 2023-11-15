@@ -1,5 +1,6 @@
 import BannerSection from "@/components/bannerSection";
 import ContactSection from "@/components/contactSection";
+import FooterSection from "@/components/footerSection";
 import NewsSections from "@/components/newsSections";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <BannerSection />
       <NewsSections />
       <ContactSection />
+      <FooterSection />
     </>
   );
 }
